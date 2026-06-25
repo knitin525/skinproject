@@ -1,0 +1,919 @@
+/* ══ OUR STORY PAGE ══ */
+.founder-hero {
+    padding: 160px 0 80px;
+    background: var(--blush)
+}
+
+.founder-hero__grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr .8fr;
+    gap: 40px;
+    align-items: center
+}
+
+.founder-hero__text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0
+}
+
+.founder-hero__text h1 em {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--earth)
+}
+
+.founder-hero__text p {
+    color: var(--muted);
+    margin-top: 20px;
+    font-size: 1rem
+}
+
+.founder-hero__img {
+    height: 550px;
+    overflow: hidden;
+    border-radius: 8px
+}
+
+.founder-hero__img img {
+    height: 100%;
+    object-fit: cover
+}
+
+.founder-hero__quote {
+    padding: 40px;
+    background: var(--sand)
+}
+
+.founder-hero__quote blockquote {
+    font: italic 1.4rem/1.5 var(--serif);
+    color: var(--charcoal)
+}
+
+.quote-mark {
+    font-size: 3rem;
+    color: var(--stone);
+    line-height: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px
+}
+
+.founder-sig {
+    font: italic 1.6rem/1 var(--serif);
+    color: var(--earth);
+    margin-top: 20px
+}
+
+/* Journey */
+.journey-section {
+    padding: 100px 0;
+    background: var(--cream)
+}
+
+.journey-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: start
+}
+
+.journey-text {
+    grid-column: 1
+}
+
+.journey-text h2 {
+    font-size: 2rem;
+    margin-bottom: 0
+}
+
+.journey-text h2 em {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--earth)
+}
+
+.journey-text p {
+    color: var(--muted);
+    font-size: .92rem;
+    margin-top: 14px
+}
+
+.journey-img {
+    grid-column: 2;
+    height: 450px;
+    overflow: hidden
+}
+
+.journey-img img {
+    height: 100%;
+    object-fit: cover
+}
+
+.journey-creds {
+    grid-column: 3
+}
+
+.cred-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px
+}
+
+.cred-item svg {
+    color: var(--earth);
+    flex-shrink: 0
+}
+
+.cred-item h5 {
+    font-family: var(--sans);
+    font-size: .72rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase
+}
+
+.journey-approach {
+    grid-column: 4
+}
+
+.journey-approach p {
+    color: var(--muted);
+    font-size: .92rem;
+    margin-top: 14px
+}
+
+.approach-goal {
+    color: var(--earth) !important;
+    font-family: var(--serif);
+    font-size: 1.1rem !important;
+    margin-top: 20px !important
+}
+
+/* Believe */
+.believe-section {
+    padding: 100px 0;
+    background: var(--sand)
+}
+
+.believe-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: start
+}
+
+.believe-list {
+    list-style: none
+}
+
+.believe-list li {
+    margin-bottom: 14px;
+    font-size: .95rem;
+    color: var(--muted);
+    padding-left: 16px;
+    border-left: 2px solid var(--stone)
+}
+
+.believe-passion p {
+    color: var(--muted);
+    font-size: .92rem;
+    margin-top: 14px
+}
+
+.passion-italic {
+    font-family: var(--serif);
+    font-size: 1.1rem !important;
+    color: var(--earth) !important;
+    margin-top: 20px !important
+}
+
+.believe-quote blockquote {
+    font: italic 1.5rem/1.6 var(--serif);
+    color: var(--charcoal);
+    padding: 40px;
+    background: var(--cream)
+}
+
+.believe-quote em {
+    color: var(--earth)
+}
+
+/* Soul */
+.soul-section {
+    padding: 100px 0;
+    background: var(--blush)
+}
+
+.soul-pillars {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 40px;
+    flex-wrap: wrap
+}
+
+.soul-pill {
+    text-align: center;
+    max-width: 180px
+}
+
+.soul-pill span {
+    display: block;
+    font-size: 1.6rem;
+    color: var(--stone);
+    margin-bottom: 10px
+}
+
+.soul-pill p {
+    font-size: .85rem;
+    color: var(--muted)
+}
+
+/* ══ PROFESSIONAL PAGE ══ */
+.pro-hero {
+    padding: 160px 0 80px;
+    background: var(--blush)
+}
+
+.pro-hero__grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 50px;
+    align-items: center;
+    position: relative
+}
+
+.pro-hero__text h1 {
+    font-size: 3rem;
+    margin-bottom: 0
+}
+
+.pro-hero__text p {
+    color: var(--muted);
+    margin-top: 20px;
+    font-size: 1rem
+}
+
+.pro-hero__img {
+    height: 500px;
+    overflow: hidden;
+    border-radius: 8px
+}
+
+.pro-hero__img img {
+    height: 100%;
+    object-fit: cover
+}
+
+.pro-hero__badge {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end
+}
+
+.pro-hero__badge span {
+    font: 300 .65rem/1 var(--sans);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: rgba(250, 246, 240, .9);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--stone)
+}
+
+/* Pro Trust */
+.pro-trust {
+    padding: 100px 0;
+    background: var(--sand)
+}
+
+.pro-trust__grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 50px
+}
+
+.pro-trust__item {
+    text-align: center;
+    max-width: 200px
+}
+
+.pro-trust__item svg {
+    color: var(--earth);
+    margin-bottom: 12px
+}
+
+.pro-trust__item h5 {
+    font-family: var(--sans);
+    font-size: .7rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 8px
+}
+
+.pro-trust__item p {
+    font-size: .82rem;
+    color: var(--muted)
+}
+
+/* Pro Journey */
+.pro-journey {
+    padding: 100px 0;
+    background: var(--cream)
+}
+
+.pro-journey__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center
+}
+
+.pro-journey__text h2 {
+    font-size: 2.4rem;
+    margin-bottom: 0
+}
+
+.pro-journey__text p {
+    color: var(--muted);
+    margin-top: 20px
+}
+
+.pro-journey__steps {
+    margin-top: 32px
+}
+
+.pj-step {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--sand)
+}
+
+.pj-step span {
+    font: 400 1.8rem/1 var(--serif);
+    color: var(--stone);
+    min-width: 40px
+}
+
+.pj-step p {
+    font-size: .9rem;
+    color: var(--muted)
+}
+
+.pro-journey__img {
+    height: 500px;
+    overflow: hidden
+}
+
+.pro-journey__img img {
+    height: 100%;
+    object-fit: cover
+}
+
+/* Wholesale */
+.wholesale {
+    padding: 100px 0;
+    background: var(--sand)
+}
+
+.wholesale__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    margin-top: 50px
+}
+
+.wholesale-list {
+    list-style: none
+}
+
+.wholesale-list li {
+    margin-bottom: 12px;
+    font-size: .92rem;
+    color: var(--muted)
+}
+
+.wholesale__img {
+    height: 400px;
+    overflow: hidden
+}
+
+.wholesale__img img {
+    height: 100%;
+    object-fit: cover
+}
+
+.wholesale__cta {
+    padding: 40px;
+    background: var(--cream);
+    text-align: center
+}
+
+.wholesale__cta h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px
+}
+
+.wholesale__cta p {
+    color: var(--muted);
+    font-size: .92rem;
+    margin-bottom: 20px
+}
+
+.wholesale__contact {
+    margin-top: 24px;
+    font-size: .85rem;
+    color: var(--muted)
+}
+
+/* Pro Testimonials */
+.pro-testimonials {
+    padding: 100px 0;
+    background: var(--cream)
+}
+
+.pro-test__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px
+}
+
+.pro-test__card {
+    padding: 40px;
+    background: var(--sand);
+    transition: transform .4s
+}
+
+.pro-test__card:hover {
+    transform: translateY(-6px)
+}
+
+.pro-test__card .quote-mark {
+    font-size: 2.5rem;
+    color: var(--stone);
+    line-height: .5;
+    display: block;
+    margin-bottom: 12px
+}
+
+.pro-test__card p {
+    font: italic 1.05rem/1.5 var(--serif);
+    margin-bottom: 16px
+}
+
+/* Pro Benefits */
+.pro-benefits-strip {
+    padding: 60px 0;
+    background: var(--sand);
+    border-top: 1px solid var(--warm)
+}
+
+.pro-benefits__row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap
+}
+
+.pro-benefit {
+    text-align: center;
+    max-width: 150px
+}
+
+.pro-benefit span {
+    display: block;
+    font-size: 1.4rem;
+    color: var(--stone);
+    margin-bottom: 8px
+}
+
+.pro-benefit h5 {
+    font-family: var(--sans);
+    font-size: .65rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 6px
+}
+
+.pro-benefit p {
+    font-size: .78rem;
+    color: var(--muted)
+}
+
+/* Pro CTA */
+.pro-cta-bar {
+    background: var(--charcoal);
+    color: var(--cream)
+}
+
+/* ══ RESPONSIVE ══ */
+@media(max-width:1024px) {
+    .nav {
+        display: none
+    }
+
+    .mobile-toggle {
+        display: flex
+    }
+
+    .hero__body h1 {
+        font-size: 2.8rem
+    }
+
+    .phil-intro-grid,
+    .phil-grid,
+    .results__grid,
+    .pro-strip__grid,
+    .pro-banner__grid,
+    .pro-journey__grid,
+    .wholesale__grid,
+    .pro-hero__grid,
+    .howto-grid,
+    .canna-grid,
+    .founder-hero__grid,
+    .ritual-split__grid {
+        grid-template-columns: 1fr !important;
+        gap: 40px
+    }
+
+    .pdp-hero__grid {
+        grid-template-columns: 1fr 1fr !important
+    }
+
+    .collection-hero__grid {
+        grid-template-columns: 1fr !important
+    }
+
+    .collection-hero__products {
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    .journey-grid {
+        grid-template-columns: 1fr 1fr !important
+    }
+
+    .journey-text,
+    .journey-creds,
+    .journey-approach {
+        grid-column: auto
+    }
+
+    .journey-img {
+        grid-column: auto
+    }
+
+    .believe-grid {
+        grid-template-columns: 1fr 1fr !important
+    }
+
+    .prod-row {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .pro-banner__img {
+        grid-column: auto;
+        grid-row: auto
+    }
+
+    .footer__grid {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .footer__top {
+        flex-direction: column
+    }
+
+    .pro-hero__badge {
+        position: static;
+        flex-direction: row;
+        margin-top: 20px
+    }
+}
+
+/* Our Story Page Styles */
+.story-page {
+    background: #fbf8f5;
+    /* Off-white for boutique feel */
+}
+
+/* Story Hero */
+.story-hero {
+    height: 820px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.story-hero__bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.story-hero__content {
+    position: relative;
+    z-index: 2;
+    max-width: 620px;
+    margin-left: -680px;
+}
+
+.story-hero__content .quote-text {
+    position: relative;
+    padding: 40px 0;
+}
+
+.story-hero__content h1 {
+    font: italic 300 3.2rem/1.2 var(--serif);
+    color: var(--charcoal);
+    margin: 20px 0;
+}
+
+.story-hero__content .quote-mark {
+    font-size: 8rem;
+    color: #411d05;
+    position: absolute;
+    line-height: 1;
+}
+
+.story-hero__content .quote-mark:first-child {
+    top: 10px;
+    left: -30px;
+}
+
+.story-hero__content .quote-mark:last-child {
+    bottom: -10px;
+    right: -20px;
+}
+
+.story-hero__content .quote-author {
+    font: italic 3.5rem var(--serif);
+    color: #683a1b;
+    margin-top: 10px;
+}
+
+.story-hero__content .quote-text {
+    position: relative;
+    display: inline-block;
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Story Journey Grid */
+.story-journey {
+    background: #fbf8f5;
+}
+
+.story-journey__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 80px;
+}
+
+.sj-content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sj-content .section-tag {
+    margin-bottom: 20px;
+    color: var(--charcoal);
+}
+
+.sj-content h2 {
+    font: italic 300 2.5rem/1.2 var(--serif);
+    color: var(--charcoal);
+    margin-bottom: 30px;
+}
+
+.sj-content .accent-line {
+    width: 60px;
+    height: 1px;
+    background: #683a1b;
+    margin: 0 auto 30px;
+}
+
+.sj-content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--muted);
+    margin-bottom: 25px;
+}
+
+.sj-visual {
+    height: 800px;
+    overflow: hidden;
+}
+
+.sj-visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Credential Strip */
+.sj-strip {
+    background: #ece3dc;
+    padding: 40px 0;
+    position: relative;
+    z-index: 5;
+    box-shadow: 0 10px 40px rgba(0,0,0,.05);
+}
+
+.sj-strip__grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.strip-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.strip-item svg {
+    color: #683a1b;
+}
+
+.strip-item span {
+    font: 300 .7rem/1.2 var(--sans);
+    letter-spacing: 1.5px;
+    color: #411d05;
+    text-transform: uppercase;
+}
+
+@media(max-width:1024px) {
+    .story-journey__top {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .sj-visual {
+        height: 500px;
+    }
+
+    .sj-strip__grid {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Story Passion Grid */
+.story-passion {
+    padding: 100px 0;
+}
+
+.story-passion__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 30px;
+}
+
+.sp-col {
+    padding: 60px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.believe-list {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.believe-list li {
+    font-size: .9rem;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    color: var(--muted);
+}
+
+.sp-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.passion-italic {
+    font: italic 1.1rem/1.6 var(--serif);
+    color: var(--stone);
+    margin-top: 25px;
+}
+
+.sp-quote .quote-text {
+    text-align: center;
+}
+
+.sp-quote .quote-text p {
+    font: italic 1.6rem/1.6 var(--serif);
+    color: var(--charcoal);
+}
+
+/* Redesigned Soul Section */
+.story-soul-new {
+    padding: 120px 0;
+    background: #fbf8f5;
+    text-align: center;
+}
+
+.soul-new__content {
+    margin-bottom: 80px;
+}
+
+.soul-new__content h3 {
+    font: italic 300 2.2rem/1.4 var(--serif);
+    color: var(--charcoal);
+    max-width: 900px;
+    margin: 30px auto 0;
+}
+
+.soul-new__pillars {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) auto;
+    gap: 60px;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding-top: 60px;
+}
+
+.soul-pillar-item {
+    text-align: left;
+}
+
+.pillar-icon {
+    margin-bottom: 20px;
+    color: #683a1b;
+}
+
+.soul-pillar-item p {
+    font: 300 .75rem/1.6 var(--sans);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--stone);
+}
+
+.soul-new__sig {
+    text-align: right;
+    padding-left: 40px;
+}
+
+.soul-new__sig .sig-name {
+    font: italic 3.5rem var(--serif);
+    color: #683a1b;
+    white-space: nowrap;
+}
+
+@media(max-width:1200px) {
+    .soul-new__pillars {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .soul-new__sig {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding-left: 0;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:768px) {
+    .story-soul-new { padding: 80px 0; }
+    .soul-new__content h3 { font-size: 1.6rem; }
+    .soul-new__pillars {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Responsive Overrides */
+@media(max-width:1400px) {
+    .sj-content { padding: 0 20px; }
+}
+
+@media(max-width:768px) {
+    .story-hero { height: auto; padding: 150px 0 100px; }
+    .story-hero__content { margin-left: 0; max-width: 100%; text-align: left; }
+    .story-hero__content h1 { font-size: 2.2rem; }
+    
+    .story-passion__grid { grid-template-columns: 1fr; }
+}
